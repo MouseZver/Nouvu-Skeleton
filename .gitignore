@@ -1,1 +1,7 @@
-vendor/
+vendor
+
+*.log
+*.cmd
+*.txt
+test.*
+init.*

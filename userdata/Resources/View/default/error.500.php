@@ -1,0 +1,2 @@
+<h2 class="mb-1">Вы оказались в параллельной вселенной хаоса 🕵🏻‍♀️</h2>
+<p class="mb-2">Найдите спасение в кружке чая и терпения.</p><a class="btn btn-primary mb-2 btn-sm-block" href="/">Back to home</a><img class="img-fluid" src="/app-assets/images/pages/error.svg" alt="Error page" />

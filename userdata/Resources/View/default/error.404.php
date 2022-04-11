@@ -1,0 +1,2 @@
+<h2 class="mb-1">Вы достигли края вселенной 🕵🏻‍♀️</h2>
+<p class="mb-2">Запрошенная вами страница не найдена.<br>Не волнуйтесь и вернитесь на предыдущую страницу.</p><a class="btn btn-primary mb-2 btn-sm-block" href="/">Back to home</a><img class="img-fluid" src="/app-assets/images/pages/error.svg" alt="Error page" />
