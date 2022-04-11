@@ -1,9 +1,9 @@
 {
-    "name": "nouvu/framework",
-    "description": "Nouvu Framework",
+    "name": "nouvu/web-skeleton",
+    "description": "Nouvu Skeleton",
     "type": "project",
     "license": "MIT",
-	"homepage": "https://github.com/MouseZver/Nouvu-Framework",
+	"homepage": "https://github.com/MouseZver/Nouvu-Skeleton",
 	"keywords": [ "PHP 8.1", "Nouvu", "Skeleton" ],
     "authors": [
         {
