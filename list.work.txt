@@ -1,4 +1,0 @@
-config/roter - мап карта
-заменить addFilemtime на хелпер функцию, если возможно = +
-Заменить форму/Модель Permission на соло Роль = +
-user/AbstractModel -> getPathByName replace scope protected to public = 
