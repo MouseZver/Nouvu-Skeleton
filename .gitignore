@@ -3,5 +3,6 @@ vendor
 *.log
 *.cmd
 *.txt
+!list.work.txt
 test.*
 init.*
