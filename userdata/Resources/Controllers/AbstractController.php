@@ -8,7 +8,7 @@ use Nouvu\Framework\Foundation\ApplicationTrait;
 use Nouvu\Framework\View\Repository\CommitRepository;
 use Nouvu\Resources\System\RestApi;
 
-use function Nouvu\Resources\System\Helpers\{ isAjax };
+use function Nouvu\Resources\System\Helpers\{ isAjax, request };
 
 class AbstractController
 {
@@ -24,6 +24,17 @@ class AbstractController
 		}
 		
 		return $this -> render( 'auth/access-denied', 'auth/auth-template' );
+	}
+
+	protected function statisticsCollector(): void
+	{
+		error_log ( 'IP address: ' . request() -> getClientIp() );
+
+		error_log ( \json_encode ( [ 
+			'POST' => request() -> request -> all(),
+			'GET' => request() -> query -> all(), 
+			'User-Agent' => request() -> headers -> get( 'User-Agent' ) 
+		], 480 ) );
 	}
 }
 

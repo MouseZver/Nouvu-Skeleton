@@ -22,6 +22,8 @@ final class MainController extends AbstractController
 	public function err404( string | int $_route ): CommitRepository
 	{
 		$this -> setThreadTitles( 'Страница не найдена' );
+
+		$this -> statisticsCollector();
 		
 		if ( isAjax() )
 		{
@@ -34,6 +36,8 @@ final class MainController extends AbstractController
 	public function err500( string | int $_route ): CommitRepository
 	{
 		$this -> setThreadTitles( 'Ошибка сервера' );
+		
+		$this -> statisticsCollector();
 		
 		if ( isAjax() )
 		{
