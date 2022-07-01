@@ -23,7 +23,7 @@ return [
 	*/
 	'middlewareSystem' => [
 		\Helpers :: class,
-		'security.token_storage', // Немедленная идентификация пользователя
+		//'security.token_storage', // Немедленная идентификация пользователя
 	],
 	
 	/*
